@@ -16,16 +16,20 @@ function verificarChute() {
 
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
-        exibirTextoNaTela('p', 'Voce descobriu o numero secreto!');
-    } else if (chute > numeroSecreto) {
-        exibirTextoNaTela('p', 'O numero secreto é menor');
+        let mensagem = (`Voce descobriu o numero secreto com ${tentativas} `) + (tentativas > 1 ? `tentativas!` : `tentativa!`);
+        exibirTextoNaTela('p', mensagem);
     } else {
-        exibirTextoNaTela('p', 'O numero secreto é maior');
+        if (chute > numeroSecreto) {
+            exibirTextoNaTela('p', 'O numero secreto é menor');
+        } else {
+            exibirTextoNaTela('p', 'O numero secreto é maior');
+        }
+        tentativas++;
     }
 }
 
-
 let numeroSecreto = gerarNumeroAleatorio();
+let tentativas = 1;
 
 //Chamando a funcao 
 exibirTextoNaTela('h1', 'Jogo do numero secreto');
