@@ -2,6 +2,7 @@
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function gerarNumeroAleatorio() {
@@ -20,8 +21,8 @@ function gerarNumeroAleatorio() {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do numero secreto');
     exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10:');
+    exibirTextoNaTela('h1', 'Jogo do numero secreto');
 }
 
 function limparCampo() {
