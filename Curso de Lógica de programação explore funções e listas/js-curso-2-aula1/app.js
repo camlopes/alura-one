@@ -63,5 +63,4 @@ let numeroLimite = 10;
 let listaDeNumerosSorteados = [];
 let tentativas = 1;
 let numeroSecreto = gerarNumeroAleatorio();
-
 exibirMensagemInicial();
