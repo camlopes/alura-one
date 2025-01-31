@@ -6,7 +6,7 @@
 
 <div>
    <ul>
-      <li>Link do Jogo feito durante as aulas do "Curso de Lógica de programação explore funções e listas": <br>
+      <li>Link do Jogo feito durante as aulas do <b>Curso de Lógica de programação explore funções e listas</b>: <br>
       https://jogodonumerosecreto-six-rouge.vercel.app/ </li>
     
    </ul>
