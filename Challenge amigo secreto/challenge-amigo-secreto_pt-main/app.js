@@ -29,11 +29,14 @@ function atualizarListaDeAmigos() {
 }
 
 function sortearAmigo() {
-    let numeroEscolhido = parseInt(Math.random() * amigos.length);
-    let amigoSorteado = amigos[numeroEscolhido];    
-    let resultado = document.getElementById('resultado');
-    resultado.innerHTML = amigoSorteado;
-
+    if (amigos == '') {
+        alert('Por favor, insira um nome para sortear.');
+    } else {
+        let numeroEscolhido = Math.floor(Math.random() * amigos.length);
+        let amigoSorteado = amigos[numeroEscolhido];
+        let resultado = document.getElementById('resultado');
+        resultado.innerHTML = amigoSorteado;
+    }
 }
 
 
