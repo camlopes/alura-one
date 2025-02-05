@@ -6,6 +6,6 @@
 
 
 - [Jogo do número secreto](https://jogodonumerosecreto-six-rouge.vercel.app/) feito durante as aulas do <b>Curso de Lógica de programação explore funções e listas.</b>
-
+- [Desafio amigo secreto](https://camlopes.github.io/challenge_amigo_secreto/) feito durante o desafio <b>Challenge amigo secreto.</b>
 
 
