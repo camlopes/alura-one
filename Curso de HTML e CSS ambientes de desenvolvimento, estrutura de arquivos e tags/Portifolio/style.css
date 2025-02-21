@@ -1,5 +1,8 @@
 body {
-    background-color: #2E073F;
-    color: #EBD3F8;
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
+.titulo-destaque {
+    color: #AD49E1;
+}
