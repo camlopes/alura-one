@@ -13,3 +13,8 @@ body {
 .titulo-destaque {
     color: #AD49E1;
 }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
