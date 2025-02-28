@@ -78,3 +78,13 @@ body {
 .apresentacao__conteudo__links__botao:hover {
     background-color: #272727;
 }
+
+.rodape {
+    background-color: #AD49E1;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    color: #000000;
+    padding: 24px;
+    font-weight: 400;
+}
