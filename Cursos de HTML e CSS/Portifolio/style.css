@@ -17,6 +17,10 @@ body {
     color: #AD49E1;
 }
 
+.titulo-destaque:hover {
+    color: #22D4FD;
+}
+
 .apresentacao {
     margin: 10% 15%;
     display: flex;
