@@ -56,6 +56,9 @@ body {
 }
 
 .apresentacao__conteudo__links__botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #AD49E1;
     width: 378px;
     padding: 21.71px 0;
