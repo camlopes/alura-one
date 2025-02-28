@@ -70,3 +70,7 @@ body {
     font-weight: 600;
     color: #F6F6F6;
 }
+
+.apresentacao__conteudo__links__botao:hover {
+    background-color: #272727;
+}
