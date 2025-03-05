@@ -12,8 +12,21 @@ body {
     color: #F6F6F6;
 }
 
-.titulo-destaque {
+.cabecalho {
+    padding: 5% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #AD49E1;
+    text-decoration: none;
 }
 
 .titulo-destaque:hover {
@@ -37,6 +50,10 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: "Krona One", serif;
+}
+
+.titulo-destaque {
+    color: #AD49E1;
 }
 
 .apresentacao__conteudo__texto {
