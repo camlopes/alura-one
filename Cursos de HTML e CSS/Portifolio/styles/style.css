@@ -5,6 +5,7 @@
     --cor-segunda: #F6F6F6;
     --cor-terceira: #AD49E1;
     --cor-quarta: #22D4FD;
+    --cor-quinta: #272727;
 
     --fonte-primeira: "Krona One", sans-serif;
     --fonte-segunda: "Montserrat", sans-serif;
@@ -101,7 +102,7 @@ body {
 }
 
 .apresentacao__conteudo__links__botao:hover {
-    background-color: var(--cor-primeira);
+    background-color: var(--cor-quinta);
 }
 
 .rodape {
