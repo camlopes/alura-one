@@ -48,10 +48,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -90,7 +91,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terceira);
-    width: 378px;
+    width: 50%;
     padding: 21.71px 0;
     text-align: center;
     border-radius: 8px;
@@ -103,6 +104,10 @@ body {
 
 .apresentacao__conteudo__links__botao:hover {
     background-color: var(--cor-quinta);
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape {
