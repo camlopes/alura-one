@@ -4,10 +4,13 @@ import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args){
         Filme filme1 = new Filme();
         Filme filme2 = new Filme();
+        Filme filme3 = new Filme();
         Serie lost = new Serie();
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
 
@@ -27,6 +30,11 @@ public class Main {
         filme2.setNome("Avatar");
         filme2.setAnoDeLancamento(2023);
         filme2.setDuracaoEmMinutos(200);
+
+        filme3.setNome("Dogville");
+        filme2.setAnoDeLancamento(2003);
+        filme3.setDuracaoEmMinutos(200);
+        filme3.avalia(10);
 
         lost.setNome("Lost");
         lost.setAnoDeLancamento(2000);
@@ -55,5 +63,14 @@ public class Main {
         System.out.println(lost.getNome());
         filtroRecomendacao.filtra(episodio);
         System.out.println("----------------------------\n");
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filme1);
+        listaDeFilmes.add(filme2);
+        listaDeFilmes.add(filme3);
+        System.out.println("Tamanho da lista " + listaDeFilmes.size());
+        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
+        System.out.println("toString da classe filme " + listaDeFilmes.get(0).toString());
     }
 }
