@@ -8,7 +8,7 @@ public class Titulo implements Comparable<Titulo> {
     private int totalAvaliacao;
     private int duracaoEmMinutos;
 
-    Titulo(String nome, int anoDeLancamento){
+    public Titulo(String nome, int anoDeLancamento){
         this.nome = nome;
         this.anoDeLancamento = anoDeLancamento;
     }
