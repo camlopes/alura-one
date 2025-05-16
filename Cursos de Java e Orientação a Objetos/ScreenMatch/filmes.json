@@ -1,10 +1,42 @@
 [
   {
-    "Nome": "Matrix",
-    "AnoDeLancamento": 1993,
-    "IncluidoNoPlano": false,
-    "SomaAvaliacoes": 0.0,
-    "TotalAvaliacao": 0,
-    "DuracaoEmMinutos": 60
+    "nome": "Matrix",
+    "anoDeLancamento": 1993,
+    "incluidoNoPlano": false,
+    "somaAvaliacoes": 0.0,
+    "totalAvaliacao": 0,
+    "duracaoEmMinutos": 60
+  },
+  {
+    "nome": "Top Gun",
+    "anoDeLancamento": 1986,
+    "incluidoNoPlano": false,
+    "somaAvaliacoes": 0.0,
+    "totalAvaliacao": 0,
+    "duracaoEmMinutos": 109
+  },
+  {
+    "nome": "Dracula",
+    "anoDeLancamento": 1992,
+    "incluidoNoPlano": false,
+    "somaAvaliacoes": 0.0,
+    "totalAvaliacao": 0,
+    "duracaoEmMinutos": 128
+  },
+  {
+    "nome": "Mickey 17",
+    "anoDeLancamento": 2025,
+    "incluidoNoPlano": false,
+    "somaAvaliacoes": 0.0,
+    "totalAvaliacao": 0,
+    "duracaoEmMinutos": 137
+  },
+  {
+    "nome": "The Lord of the Rings: The Fellowship of the Ring",
+    "anoDeLancamento": 2001,
+    "incluidoNoPlano": false,
+    "somaAvaliacoes": 0.0,
+    "totalAvaliacao": 0,
+    "duracaoEmMinutos": 178
   }
 ]

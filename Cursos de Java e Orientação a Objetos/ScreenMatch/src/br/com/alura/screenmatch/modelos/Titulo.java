@@ -19,7 +19,7 @@ public class Titulo implements Comparable<Titulo> {
         this.nome = tituloOmdb.title();
         if (tituloOmdb.year().length() > 4) {
             throw new ErroDeConversaoDeAnoException("Não foi possivel converter o ano para inteiro" +
-                    "pois seu valor no JSON tem mais de 4 caracteres");
+                    " pois seu valor no JSON tem mais de 4 caracteres");
         }
         this.anoDeLancamento = Integer.valueOf(tituloOmdb.year());
         this.duracaoEmMinutos = Integer.valueOf(tituloOmdb.runtime().substring(0,3).trim());
