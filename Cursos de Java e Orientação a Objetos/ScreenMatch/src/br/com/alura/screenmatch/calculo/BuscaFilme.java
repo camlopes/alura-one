@@ -29,7 +29,7 @@ public class BuscaFilme {
         while (!filmeBuscado.equalsIgnoreCase("sair")) {
             System.out.print("Digite um Filme para busca: ");
             filmeBuscado = scanner.nextLine();
-            String endereco = "https://www.omdbapi.com/?t=" + filmeBuscado.replace(" ", "+") + "&apikey=ece4d09a";
+            String endereco = "https://www.omdbapi.com/?t=" + filmeBuscado.replace(" ", "+") + "APIKEY";
 
             if (filmeBuscado.equalsIgnoreCase("sair")){
                 break;
