@@ -15,4 +15,5 @@
 - [Desafio conversor de moedas](https://github.com/camlopes/challenge-conversor-de-moeda) feito durante o <b>Challenge conversor de moedas.</b>
 - [Aplicação de linha de comando](https://github.com/camlopes/screenmatch-sw) feito durante as aulas dos cursos **Curso de Java: trabalhando com lambdas, streams e Spring Framework** e **Curso de Java: persistência de dados e consultas com Spring Data JPA**
 - [Aplicação web](https://github.com/camlopes/screenmatch-web) feito durante as aulas do curso **Curso de Java: criando sua primeira API e conectando ao front**
+- [literalura](https://github.com/camlopes/literalura) feito durante o **Challenge LiterAlura**
 
